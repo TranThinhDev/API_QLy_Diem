@@ -1,0 +1,16 @@
+
+<web-app>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/api/users</url-pattern>
+  </servlet-mapping>
+  <listener>
+    <listener-class>listener.AppCleanupListener</listener-class>
+</listener>
+</web-app>
+
+
